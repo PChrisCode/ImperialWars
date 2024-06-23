@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{F2282132-CE5C-424F-A20C-EF2005F740C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImperialWars.Int.Tests", "..\_Tests\ImperialWars.Int.Tests\ImperialWars.Int.Tests.csproj", "{FE5F7C65-09F4-4362-B63F-DE4843CA9C0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2E21A892-FE5B-4E4E-9327-CB7CC2EE6B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImperialWars.Core", "..\Core\ImperialWars.Core\ImperialWars.Core.csproj", "{6B9A5BBA-8DC7-4B28-B931-3E6DAAAC8B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImperialWars.Core.Impl", "..\Core\ImperialWars.Core.Impl\ImperialWars.Core.Impl.csproj", "{7F258025-7A9E-4244-A74E-CACF98A5F10F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE5F7C65-09F4-4362-B63F-DE4843CA9C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5F7C65-09F4-4362-B63F-DE4843CA9C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5F7C65-09F4-4362-B63F-DE4843CA9C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5F7C65-09F4-4362-B63F-DE4843CA9C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9A5BBA-8DC7-4B28-B931-3E6DAAAC8B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9A5BBA-8DC7-4B28-B931-3E6DAAAC8B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9A5BBA-8DC7-4B28-B931-3E6DAAAC8B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9A5BBA-8DC7-4B28-B931-3E6DAAAC8B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F258025-7A9E-4244-A74E-CACF98A5F10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F258025-7A9E-4244-A74E-CACF98A5F10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F258025-7A9E-4244-A74E-CACF98A5F10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F258025-7A9E-4244-A74E-CACF98A5F10F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE5F7C65-09F4-4362-B63F-DE4843CA9C0F} = {F2282132-CE5C-424F-A20C-EF2005F740C7}
+		{6B9A5BBA-8DC7-4B28-B931-3E6DAAAC8B6A} = {2E21A892-FE5B-4E4E-9327-CB7CC2EE6B01}
+		{7F258025-7A9E-4244-A74E-CACF98A5F10F} = {2E21A892-FE5B-4E4E-9327-CB7CC2EE6B01}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4C48E71-A1FF-4CA8-A129-2E758E4824A1}
+	EndGlobalSection
+EndGlobal
